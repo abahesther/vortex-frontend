@@ -45,6 +45,11 @@ export type FeedItem = {
   status: IntentStatus;
   createdAt: string;
   deadline?: string;
+  /**
+   * ISO timestamp when this intent was filled. Present only when status === "filled".
+   * Used to compute fill-time distribution and SLA metrics.
+   */
+  filledAt?: string;
 };
 
 export type IntentDetail = FeedItem & {
