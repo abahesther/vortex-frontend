@@ -63,9 +63,7 @@ export const en = {
   "swap.quote.highPriceImpactWarning": "High price impact above {threshold}% — review before swapping.",
   "swap.quote.unavailable": "Live quote unavailable — showing an estimated rate.",
   "swap.quote.noSolver": "No solver is available for this route right now.",
-  "swap.quote.highPriceImpactWarning": "High price impact above {threshold}% — review before swapping.",
   "swap.quote.staleWarning": "Quote is stale. Please wait for a refresh before submitting.",
-  "swap.quote.highPriceImpactWarning": "High price impact above {threshold}% — review before swapping.",
 
   "swap.submit.connecting": "Connecting wallet…",
   "swap.submit.building": "Preparing swap…",
@@ -81,10 +79,6 @@ export const en = {
   "swap.destination.placeholder": "G...",
   "swap.destination.invalidAddress":
     "Enter a valid Stellar address (starts with G).",
-
-  "swap.destination.label": "Destination address",
-  "swap.destination.placeholder": "G...",
-  "swap.destination.invalidAddress": "Enter a valid Stellar address (starts with G).",
 
   "swap.disclaimer": "Swap settles directly on Stellar · No wrapped tokens · Protected by solver bonds",
 
